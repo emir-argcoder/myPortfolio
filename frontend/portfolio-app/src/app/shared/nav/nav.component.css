@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .side-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px; /* Ancho de la barra de navegación */
+    height: 100%; /* Altura completa de la pantalla */
+    background-color: #031a31; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    padding-top: 20px; /* Espacio en la parte superior */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra para la barra */
+  }
+  
+  .side-nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .side-nav ul li {
+    padding: 10px 0;
+  }
+  
+  .side-nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  .side-nav ul li a:hover {
+    background-color: #495057; /* Color de fondo en hover */
+  }

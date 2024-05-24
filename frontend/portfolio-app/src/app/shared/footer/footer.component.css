@@ -1,0 +1,19 @@
+body {
+    margin: 0; /* Eliminar margen predeterminado del body */
+    padding-bottom: 60px; /* Espacio para el footer */
+  }
+  
+  .footer {
+    background-color: #343a40; /* Fondo oscuro */
+    color: #b3b3b3; /* Color de texto más claro */
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0; /* Eliminar el margen del párrafo dentro del footer */
+  }
